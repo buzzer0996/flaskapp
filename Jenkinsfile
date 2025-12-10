@@ -22,7 +22,7 @@ pipeline {
 
         stage('Git Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/vijaygiduthuri/flaskapp.git'
+                git branch: 'main', url: 'https://github.com/buzzer0996/flaskapp.git'
             }
         }
 
